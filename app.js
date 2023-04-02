@@ -1,5 +1,6 @@
 const gameBoard = document.querySelector('#gameboard');
 const infoDisplay = document.querySelector('#info');
+const  againButton = document.querySelector('.again');
 const startCells = ["","","","","","","","",""];
 let go = "circle";
 infoDisplay.textContent = "Circle goes first "
@@ -54,3 +55,10 @@ function checkScore() {
 
    })
 }
+
+function resetGame() {
+  location.reload();
+}
+
+
+againButton.addEventListener('click', resetGame);

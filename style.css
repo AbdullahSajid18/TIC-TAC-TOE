@@ -9,6 +9,29 @@ body {
     height: 100vh;
 }
 
+.upperDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.upperDiv button{
+    width: 150px;
+    height: 50px;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    background-color: #ffae4c;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.again {
+    margin-left: 20px;
+}
+
 #gameboard {
     width: 300px;
     height: 300px;
